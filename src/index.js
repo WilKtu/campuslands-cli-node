@@ -1,4 +1,4 @@
-import { agregar, listarCamper, buscarCamperPorNombre} from './campers.js';
+import { agregar, listarCamper, buscarCamperPorNombre} from '../data/campers.js';
 
 const [comando,agr1,agr2 ] = process.argv;
 

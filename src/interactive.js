@@ -1,6 +1,6 @@
 import readline from 'node:readline/promises';
 import{ stdin as input, stdin as output } from 'node:process';
-import { agregar } from './campers';
+import { agregar } from '../data/campers';
 
 const rl = readline.createInterface({  input, output });
 
